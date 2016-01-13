@@ -27,7 +27,8 @@ Write a "single-page app" and develop its configuration management.
 
 Get the project template using git:
 
-* 0) Install [git-scm](https://git-scm.com), and [node.js v4.2.4](https://nodejs.org/en/) .
+* 0) Install [git-scm](https://git-scm.com), and [node.js v4.2.4](https://nodejs.org/en/).
+     Install bower, with `npm install bower -g`, grunt with `npm install grunt-cli -g`.
 
 * 1) `git clone https://github.com/CSC-326/HW1.P1.git`
 
