@@ -28,11 +28,12 @@ Write a "single-page app" and develop its configuration management.
 Get the project template using git:
 
 * 0) Install [git-scm](https://git-scm.com), and [node.js v4.2.4](https://nodejs.org/en/).
-     Install bower, with `npm install bower -g`, grunt with `npm install grunt-cli -g`.
 
 * 1) `git clone https://github.com/CSC-326/HW1.P1.git`
 
 * 2) Run `npm install` to get project dependencies installed (grunt, bower). npm is installed when you install node.js.
+     To make it easy to run, you might want a global install of grunt/bower: `npm install bower -g`, grunt with `npm install grunt-cli -g`.
+
 
 * 3) Run `bower install` to get web dependencies installed (e.g., bootstrap).
 
