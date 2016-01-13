@@ -59,8 +59,8 @@ You can edit the bower.json file or simply use the `-S` option to save dependenc
 Grunt is a task and build manager. Tasks are used to 
 Create a grunt task to:
 
-* 1) Extend current `less` task to compile an additional `local.less` file, containing your custom presentation elements into a css file. (20 points)
-* 2) Create a new grunt task, called `package` to concat all javascript libraries into a single `"www\js\libs.js"` file. (20 points)
+* 1) Extend current `less` task to compile an additional `local.less` file, containing your custom presentation elements into a css file. (15 points)
+* 2) Create a new grunt task, called `package` to concat all javascript libraries into a single `"www\js\libs.js"` file. (15 points)
 
 To help with step 2, the following snippet will be helpful:
 
@@ -98,6 +98,13 @@ If you successfully complete Part 2, you should be able to see webpage like the 
 
 Verify your assignment works by cloning your repo on a fresh directory location. Repeat the setup step in part 1. Additionally run, `grunt package`. Open `www\index.html` and verify the site looks correct. You should not be checking in node_modules, bower_components, or www\css\*.css or www\js\libs.js.
 
+Create a branch gh-pages in your repo.  You should be able to see your webpage online, Example:
+
+* Code: https://github.ncsu.edu/cjparnin/WebTest/tree/gh-pages
+* Site: https://github.ncsu.edu/pages/cjparnin/WebTest/
+
+10 points.
+
 ## Submission
 
 Submit your link to your github repo on moodle.
@@ -115,7 +122,8 @@ You will be graded on the configuration management of your app as well as your u
 * Moodle and Slack - 10%
 * Github Repo - 10%
 * Bower components (bower.json) - 20%
-* Grunt tasks - 40%
+* Grunt tasks - 30%
 * App layout and content - 20%
+* gh-pages branch - 10%
 * Bonus: jQuery - 5%
 * Bonus: Extra grunt task - 5%
