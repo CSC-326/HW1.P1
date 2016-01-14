@@ -96,9 +96,9 @@ If you successfully complete Part 2, you should be able to see webpage like the 
 
 ## Part 4
 
-Verify your assignment works by cloning your repo on a fresh directory location. Repeat the setup step in part 1. Additionally run, `grunt package`. Open `www\index.html` and verify the site looks correct. You should not be checking in node_modules, bower_components, or www\css\*.css or www\js\libs.js.
+Verify your assignment works by cloning your repo on a fresh directory location. Repeat the setup step in part 1. Additionally run, `grunt package`. Open `www\index.html` and verify the site looks correct. You should not be checking in node_modules, bower_components, or www\css\*.css or www\js\libs.js to the **master branch**.
 
-Create a branch gh-pages in your repo.  You should be able to see your webpage online, Example:
+Create a branch gh-pages in your repo.  Copy all the content in www/ into the root directory and commit to the branch. You should be able to see your webpage online, Example:
 
 * Code: https://github.ncsu.edu/cjparnin/WebTest/tree/gh-pages
 * Site: https://github.ncsu.edu/pages/cjparnin/WebTest/
