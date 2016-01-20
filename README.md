@@ -105,6 +105,11 @@ Create a branch gh-pages in your repo.  Copy all the content in www/ into the ro
 
 10 points.
 
+## Conceptual layout
+
+![image](https://cloud.githubusercontent.com/assets/742934/12467229/c9d89f56-bfa7-11e5-8900-26f145986fcc.png)
+
+
 ## Submission
 
 Submit your link to your github repo on moodle.
