@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>YOUR SINGLE-PAGE APP</title>
+		<title>CSC 326 HW1</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 		<link rel="stylesheet" href="css/local.css" media="screen">
@@ -14,31 +14,49 @@
 		<script src="js/site.js"></script>
 
 	</head>
-
  	<div class="container">
       <div class="page-header" id="banner">
+      <h1>Software Engineering</h1>
+      <body style="background-color:lightgrey;">
       	<div class="row">
-         	<div class="col-lg-6 col-md-6 col-sm-4">
-         		<h1>Content</h1>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3">
-         		<h1>Template</h1>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-2">
-         		<h1>Header</h1>
+         	<div class="col-lg-4 col-md-3 col-sm-2">
+			
+         		<button class="button" class="btn btn-primary-outline">Login
+				<span class="caret"></span></button>
+				
+         		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">About us
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Phone</a></li>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+				</ul>
+				
+				
+         		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Contact
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Phone</a></li>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+				</ul>
 				</div>
 			</div>
+			</body>
 		</div>
+	</div>
 	</div>
 
 	<div class="container">
 		<div class="row  ">
 			<div class="col-lg-10 col-lg-offset-1 col-sm-8 col-sm-offset-2" >
 				<div class="well">
-					<p class="text-info lead">YOUR SINGLE-PAGE APP.</p>
+					<p class="text-info lead">Pan across map, starting from San Francisco.</p>
 				</div>
-				<div class="box">
-				A styled, shadowed box.
+				<div class="box", style="box-shadow: 0px 20px 5px;">
+					Map of San Francisco
 				<div>
 			</div>
 		</div>
@@ -48,7 +66,7 @@
 		<div class="row">
 
 			<div class="col-lg-8 col-lg-offset-1">
-				<p class="text-info lead">Startup office locator.</p>
+				<p class="text-info lead"></p>
 				<div id="mapcontainer">
 		  			<canvas id="map"></canvas>
 				</div>
